@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card animate</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+
+    <div class="container">
+        <!-- Box 1 -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/aaron-huber-8qYE6LGHW-c-unsplash.jpg">
+            </div>
+            <div class="contentBox">
+               <h1>Benz</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est molestiae at quia unde laudantium modi ducimus ab deleniti. Nesciunt totam explicabo quos mollitia architecto porro officia expedita placeat quidem vel!</p>
+            </div>
+        </div>
+
+        <!-- Box 2 -->
+        <div class="box">
+            <div class="imgBox">
+                <img src="./image/aaron-huber-8qYE6LGHW-c-unsplash.jpg">
+            </div>
+            <div class="contentBox">
+               <h1>Benz</h1>
+               <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est molestiae at quia unde laudantium modi ducimus ab deleniti. Nesciunt totam explicabo quos mollitia architecto porro officia expedita placeat quidem vel!</p>
+            </div>
+        </div>
+    </div>
+   
+
+   
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+       VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+
+    </script>
+</body>
+</html>
